@@ -7,13 +7,13 @@
   <test thread-count="5" name="Test(failed)" verbose="0">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.ebankingprpject.TestCases.TC_003_LoginDataDrivenTest">
+      <class name="com.ebankingprpject.TestCases.TC_003_RegistrationTest">
         <methods>
           <include name="teadDown"/>
-          <include name="test_LoginDDT" invocation-numbers="1 2 3 4"/>
           <include name="setup"/>
+          <include name="test_account_Registration"/>
         </methods>
-      </class> <!-- com.ebankingprpject.TestCases.TC_003_LoginDataDrivenTest -->
+      </class> <!-- com.ebankingprpject.TestCases.TC_003_RegistrationTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

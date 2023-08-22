@@ -80,3 +80,6 @@
 11:19:42.617 [main] INFO  com.ebankingprpject.TestCases.TC_003_LoginDataDrivenTest -  Starting TC_003_LoginDataDrivenTest 
 11:21:29.289 [main] INFO  com.ebankingprpject.TestCases.TC_003_LoginDataDrivenTest -  Finished TC_003_LoginDataDrivenTest
 11:21:29.320 [main] INFO  com.ebankingprpject.TestCases.TC_003_LoginDataDrivenTest -  Starting TC_003_LoginDataDrivenTest 
+00:58:12.965 [main] INFO  com.ebankingprpject.TestCases.TC_003_LoginDataDrivenTest -  Starting TC_003_LoginDataDrivenTest 
+00:59:58.856 [main] INFO  com.ebankingprpject.TestCases.TC_003_LoginDataDrivenTest -  Finished TC_003_LoginDataDrivenTest
+00:59:58.889 [main] INFO  com.ebankingprpject.TestCases.TC_003_LoginDataDrivenTest -  Starting TC_003_LoginDataDrivenTest 

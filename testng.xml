@@ -11,7 +11,7 @@
     <classes>
                      
    	 
-   	  <class name="com.ebankingprpject.TestCases.TC_003_LoginDataDrivenTest"/>
+   	  <class name="com.ebankingprpject.TestCases.TC_003_RegistrationTest"/>
    	   </classes>
   </test> 
 </suite> 

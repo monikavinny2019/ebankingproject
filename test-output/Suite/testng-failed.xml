@@ -6,11 +6,6 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
-    <groups>
-      <run>
-        <include name="regression"/>
-      </run>
-    </groups>
     <classes>
       <class name="com.ebankingprpject.TestCases.TC_003_RegistrationTest">
         <methods>

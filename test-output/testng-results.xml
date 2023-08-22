@@ -1,39 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-16T10:29:43 IST" name="Suite" finished-at="2023-08-16T10:30:09 IST" duration-ms="26218">
+  <suite started-at="2023-08-21T21:25:02 IST" name="Default suite" finished-at="2023-08-21T21:25:31 IST" duration-ms="29064">
     <groups>
-      <group name="regression">
-        <method signature="TC_003_RegistrationTest.test_account_Registration()[pri:0, instance:com.ebankingprpject.TestCases.TC_003_RegistrationTest@3f191845]" name="test_account_Registration" class="com.ebankingprpject.TestCases.TC_003_RegistrationTest"/>
-      </group> <!-- regression -->
-      <group name="sanity">
-        <method signature="TC_003_RegistrationTest.test_account_Registration()[pri:0, instance:com.ebankingprpject.TestCases.TC_003_RegistrationTest@3f191845]" name="test_account_Registration" class="com.ebankingprpject.TestCases.TC_003_RegistrationTest"/>
-      </group> <!-- sanity -->
     </groups>
-    <test started-at="2023-08-16T10:29:43 IST" name="Test" finished-at="2023-08-16T10:30:09 IST" duration-ms="26218">
-      <class name="com.ebankingprpject.TestCases.TC_003_RegistrationTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ebankingprpject.TestCases.TC_003_RegistrationTest@3f191845]" started-at="2023-08-16T10:29:43 IST" name="setup" finished-at="2023-08-16T10:29:50 IST" duration-ms="6477" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="test_account_Registration()[pri:0, instance:com.ebankingprpject.TestCases.TC_003_RegistrationTest@3f191845]" started-at="2023-08-16T10:29:50 IST" name="test_account_Registration" finished-at="2023-08-16T10:30:07 IST" duration-ms="17594" status="FAIL">
-          <exception class="java.lang.AssertionError">
+    <test started-at="2023-08-21T21:25:02 IST" name="Default test" finished-at="2023-08-21T21:25:31 IST" duration-ms="29064">
+      <class name="com.ebankingprpject.TestCases.TC_002_DemoTest">
+        <test-method signature="Tc_DemoTest()[pri:0, instance:com.ebankingprpject.TestCases.TC_002_DemoTest@3c77d488]" started-at="2023-08-21T21:25:02 IST" name="Tc_DemoTest" finished-at="2023-08-21T21:25:31 IST" duration-ms="28978" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[null]]>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Sign Up']"}
+  (Session info: chrome=116.0.5845.96)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5.2', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e76ff7a7473391c8a1bc756bd3396633, findElement {using=xpath, value=//a[text()='Sign Up']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.96, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/s6/s8stmxf91hq...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56132}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56132/devtoo..., se:cdpVersion: 116.0.5845.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e76ff7a7473391c8a1bc756bd3396633]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.fail(Assert.java:115)
-at com.ebankingprpject.TestCases.TC_003_RegistrationTest.test_account_Registration(TC_003_RegistrationTest.java:37)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Sign Up']"}
+  (Session info: chrome=116.0.5845.96)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5.2', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e76ff7a7473391c8a1bc756bd3396633, findElement {using=xpath, value=//a[text()='Sign Up']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.96, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/s6/s8stmxf91hq...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56132}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56132/devtoo..., se:cdpVersion: 116.0.5845.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e76ff7a7473391c8a1bc756bd3396633
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at com.ebankingprpject.TestCases.TC_002_DemoTest.Tc_DemoTest(TC_002_DemoTest.java:40)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -64,15 +77,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_account_Registration -->
-        <test-method is-config="true" signature="teadDown()[pri:0, instance:com.ebankingprpject.TestCases.TC_003_RegistrationTest@3f191845]" started-at="2023-08-16T10:30:09 IST" name="teadDown" finished-at="2023-08-16T10:30:09 IST" duration-ms="227" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teadDown -->
-      </class> <!-- com.ebankingprpject.TestCases.TC_003_RegistrationTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- Tc_DemoTest -->
+      </class> <!-- com.ebankingprpject.TestCases.TC_002_DemoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

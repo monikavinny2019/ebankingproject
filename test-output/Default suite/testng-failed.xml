@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ebankingprpject.TestCases.TC_003_RegistrationTest">
+      <class name="com.ebankingprpject.TestCases.TC_002_DemoTest">
         <methods>
-          <include name="teadDown"/>
-          <include name="setup"/>
-          <include name="test_account_Registration"/>
+          <include name="Tc_DemoTest"/>
         </methods>
-      </class> <!-- com.ebankingprpject.TestCases.TC_003_RegistrationTest -->
+      </class> <!-- com.ebankingprpject.TestCases.TC_002_DemoTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
